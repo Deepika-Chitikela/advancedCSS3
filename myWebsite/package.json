@@ -1,0 +1,15 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/design.scss css/websiteStyle.css -w "
+  },
+  "author": "deepika",
+  "license": "ISC"
+}
